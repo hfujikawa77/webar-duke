@@ -23,8 +23,10 @@
 
     <!-- マーカー設定 -->
     <a-marker preset='custom' type='pattern' url='contents/pattern-marker.patt'>
-      <a-gltf-model src="#javaDuke-gltf" position="0 0 0" rotation="0 0 0" scale="0.1 0.1 0.1" shadow="receive: true">
+      <a-gltf-model src="#javaDuke-gltf" position="0 0 0" rotation="0 0 0" scale="0.08 0.08 0.08" shadow="receive: true">
         <a-animation attribute="rotation" to="0 360 0" dur="30000" easing="linear" repeat="indefinite"></a-animation>
+        <!-- <a-animation attribute="scale" dur="5000" from="0.1 0.1 0.1" to="0.05 0.05 0.05" direction='alternate-reverse' 
+          easing="ease-in-out-circ" repeat="indefinite"></a-animation> -->
       </a-gltf-model>
     </a-marker>
 
