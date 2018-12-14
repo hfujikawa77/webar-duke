@@ -18,11 +18,11 @@
 
     <!-- gltf3Dモデル読み込み -->
     <a-assets>
-      <a-asset-item id="javaDuke-gltf" src="javaDuke/Duke_wave_colored.gltf"></a-asset-item>
+      <a-asset-item id="javaDuke-gltf" src="contents/Duke_wave_colored.gltf"></a-asset-item>
     </a-assets>
 
     <!-- マーカー設定 -->
-    <a-marker preset='custom' type='pattern' url='javaDuke/pattern-marker.patt'>
+    <a-marker preset='custom' type='pattern' url='contents/pattern-marker.patt'>
       <a-gltf-model src="#javaDuke-gltf" position="0 0 0" rotation="0 0 0" scale="0.1 0.1 0.1" shadow="receive: true">
         <a-animation attribute="rotation" to="0 360 0" dur="30000" easing="linear" repeat="indefinite"></a-animation>
       </a-gltf-model>
